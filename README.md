@@ -4,6 +4,8 @@
 I wanted a framework similar to fontawesome but for flags. The flags used in this framework were downloaded from flaticon.com (see license folder). There flags are great for displaying languages, user's location and more!
 All the SVGs, the css and functionality are packed into a js file. You no longer need a folder with 250 odd images.
 
+![Screenshot](https://i.imgur.com/oJp2cHu.png)
+
 To get started, include the file into the head of your document:
 ```html
 <script src="vendor/flagtastic.min.js">
