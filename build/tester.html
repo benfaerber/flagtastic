@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG</title>
+  <script src="flagtastic.min.js"></script>
+</head>
+<body>
+  <h1>Flagtastic</h1>
+  <p>Easily add svg flags with a single file and single line of code!</p>
+  <div id="section1">
+    Here is a large German flag:
+    <i class="fl fl-de fl-lg"></i>
+    Here is an extra large American flag:
+    <i class="fl fl-us fl-xl"></i>
+    Here is a normal sized French flag:
+    <i class="fl fl-fr"></i>
+    More flags:
+    <i class="fl fl-gb fl-xs"></i>
+    <i class="fl fl-mx fl-sm"></i>
+    <i class="fl fl-jp fl-lg"></i>
+  </div>
+  <div id="section2">
+    <button onclick="addSpanishFlag()">Add a Spanish flag!</button>
+  </div>
+  <script>
+    function addSpanishFlag() {
+      // Create the new flag and append it
+      let flag = document.createElement('i');
+      flag.className = 'fl fl-es';
+      document.querySelector('#section2').appendChild(flag);
+      // Update the flags
+      updateFlags();
+    }
+  </script>
+</body>
+</html>

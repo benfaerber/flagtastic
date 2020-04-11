@@ -1,0 +1,27 @@
+.fl {
+  margin: 10px;
+}
+
+.fl svg {
+  width: 64px;
+}
+
+.fl-xs svg {
+  width: 16px;
+}
+
+.fl-sm svg {
+  width: 32px;
+}
+
+.fl-md svg {
+  width: 64px;
+}
+
+.fl-lg svg {
+  width: 128px;
+}
+
+.fl-xl svg {
+  width: 256px;
+}
